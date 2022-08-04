@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.item__container {
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.delete {
+  color: red;
+  font-weight: bolder;
+}
